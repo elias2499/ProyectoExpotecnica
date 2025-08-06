@@ -1,0 +1,31 @@
+Sistema para jueces puedan calificar y el mismo sistema pueda sacar calculos y pueda sacar 2 ganadores por categoria
+
+Son varias categorias, y esas categorias tienen sus propias rubricas.
+
+Los jueces solo califican los proyectos asignados.
+
+Un juez debe pasar por 3 proyectos, duracion de juez por proyecto mucho 20 minutos.
+
+Califican al final, podrian calificar al final
+
+Deben ser responsivo ya que puede ser manejado por tablets.
+
+No debe llevar conteo, el juez debe marcar cuando ya expuso y que haya un contador de tiempo de exposicion
+
+Cuando el juez califica debe tener el nombre de la empresa, logo y una pequeña descripcion del proyecto.
+
+Solo los administradores pueden ver los resultados de los participantes
+
+2 roles: administrador y jueces.
+
+No se debe mostrar quien hizo la calificacion
+
+Lleva categorias de proyectos.
+
+Colores oficiales del Covao.
+
+Una lista de proyectos a calificar.
+
+Cada juez debe tener un id y que avise en tiempo real cuales proyectos ya fueron calificados por los jueces y cuales jueces faltan de calificar tal proyecto
+
+Debe avisar cuales proyectos faltan por calificar.
