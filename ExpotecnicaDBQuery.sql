@@ -15,7 +15,7 @@ go
 use Expotecnica
 go
 
-                                                                               -- Creación de tablas
+                                                                               -- CreaciÃ³n de tablas
 
 create table persona
 (
@@ -72,8 +72,8 @@ estadoRol bit default 1 not null,
 create table usuario
 (
 idUsuario int primary key identity (0, 1),
-username varchar (35) not null,
-passwordHash varchar not null,   -- crear hashing en el código
+username varchar (35) not null unique,
+passwordHash varchar not null,   -- crear hashing en el cÃ³digo
 estadoUsuario bit default 1 not null,
 idRol int not null,
 cedula varchar (15) not null,
@@ -161,4 +161,5 @@ recomendaciones text not null,
 idRubrica int not null,
 foreign key (idRubrica) references rubrica (idRubrica)
 );
+
 
